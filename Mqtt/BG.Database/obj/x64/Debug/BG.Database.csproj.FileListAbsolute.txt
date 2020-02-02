@@ -1,0 +1,13 @@
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\bin\x64\Debug\BG.Database.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\bin\x64\Debug\BG.Database.pdb
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\bin\x64\Debug\BG.Contract.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\bin\x64\Debug\BG.Log.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\bin\x64\Debug\BG.Utilities.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\bin\x64\Debug\Oracle.ManagedDataAccess.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\bin\x64\Debug\log4net.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\bin\x64\Debug\BG.Contract.pdb
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\bin\x64\Debug\BG.Log.pdb
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\bin\x64\Debug\BG.Utilities.pdb
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\obj\x64\Debug\BG.Database.csprojResolveAssemblyReference.cache
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\obj\x64\Debug\BG.Database.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Database\obj\x64\Debug\BG.Database.pdb

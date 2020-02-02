@@ -1,0 +1,5 @@
+D:\Git_wamnv\mqtt\Mqtt\BG.Log\bin\x64\Debug\BG.Log.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Log\bin\x64\Debug\BG.Log.pdb
+D:\Git_wamnv\mqtt\Mqtt\BG.Log\bin\x64\Debug\log4net.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Log\obj\x64\Debug\BG.Log.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Log\obj\x64\Debug\BG.Log.pdb
