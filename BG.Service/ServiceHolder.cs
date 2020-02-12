@@ -8,6 +8,7 @@ using BG.Utilities;
 using BG.Contract;
 using BG.Database;
 using BG.Mqtt;
+using BG.Computer;
 
 namespace BG.Service
 {
@@ -24,15 +25,15 @@ namespace BG.Service
         {
 
             //ThreadPool.QueueUserWorkItem(new WaitCallback(KEEPALIVEListener));
-            ThreadPool.QueueUserWorkItem(new WaitCallback(Tcl1));
+            ThreadPool.QueueUserWorkItem(new WaitCallback(MqttPub));
             ThreadPool.QueueUserWorkItem(new WaitCallback(Tcl2));
 
         }
 
 
-        private void Tcl1(object ob)
+        private void MqttPub(object ob)
         {
-            while(!tc1.InitClient("127.0.0.1", 1883, "lift")) //("118.31.5.131",1883,"lift"))
+            while(!tc1.InitClient("118.31.5.131", 1883, "lift")) //("118.31.5.131",1883,"lift"))
             {
                 Thread.Sleep(1000 * 5);//5秒重连
             }
@@ -61,12 +62,13 @@ namespace BG.Service
         }
         private void Tcl2(object ob)
         {
-            while (!tc2.InitClient("127.0.0.1",1883,"wamnv"))
+            while (!tc2.InitClient("127.0.0.1",1883,"computer"))
             {
                 Thread.Sleep(1000 * 5);
             }
             while (true)
             {
+                processor
                 tc2.MqttPub("wamnv", DateTime.Now.AddDays(2).ToString(), 2);
                 Thread.Sleep(1000 * 5);
             }

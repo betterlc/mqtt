@@ -1,0 +1,7 @@
+D:\Projects\CKProject\mqtt\ComputerTest\bin\Debug\ComputerTest.dll
+D:\Projects\CKProject\mqtt\ComputerTest\bin\Debug\ComputerTest.pdb
+D:\Projects\CKProject\mqtt\ComputerTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projects\CKProject\mqtt\ComputerTest\bin\Debug\zh-Hans\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Projects\CKProject\mqtt\ComputerTest\obj\Debug\ComputerTest.csprojResolveAssemblyReference.cache
+D:\Projects\CKProject\mqtt\ComputerTest\obj\Debug\ComputerTest.dll
+D:\Projects\CKProject\mqtt\ComputerTest\obj\Debug\ComputerTest.pdb

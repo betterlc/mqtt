@@ -1,0 +1,7 @@
+D:\Projects\CKProject\mqtt\BG.Computer\bin\Debug\BG.Computer.dll
+D:\Projects\CKProject\mqtt\BG.Computer\bin\Debug\BG.Computer.pdb
+D:\Projects\CKProject\mqtt\BG.Computer\bin\Debug\MathNet.Numerics.dll
+D:\Projects\CKProject\mqtt\BG.Computer\bin\Debug\MathNet.Numerics.xml
+D:\Projects\CKProject\mqtt\BG.Computer\obj\Debug\BG.Computer.csprojResolveAssemblyReference.cache
+D:\Projects\CKProject\mqtt\BG.Computer\obj\Debug\BG.Computer.dll
+D:\Projects\CKProject\mqtt\BG.Computer\obj\Debug\BG.Computer.pdb
