@@ -1,4 +1,0 @@
-D:\Git_wamnv\mqtt\Mqtt\BG.Utilities\bin\x64\Debug\BG.Utilities.dll
-D:\Git_wamnv\mqtt\Mqtt\BG.Utilities\bin\x64\Debug\BG.Utilities.pdb
-D:\Git_wamnv\mqtt\Mqtt\BG.Utilities\obj\x64\Debug\BG.Utilities.dll
-D:\Git_wamnv\mqtt\Mqtt\BG.Utilities\obj\x64\Debug\BG.Utilities.pdb

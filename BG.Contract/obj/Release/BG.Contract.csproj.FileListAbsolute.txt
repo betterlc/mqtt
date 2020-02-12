@@ -1,0 +1,37 @@
+C:\Users\liujintong\Desktop\luoguangyao1987.Volkswagen\CommunicateService - 副本\BG.Contract\bin\Release\BG.Contract.dll
+C:\Users\liujintong\Desktop\luoguangyao1987.Volkswagen\CommunicateService - 副本\BG.Contract\bin\Release\BG.Contract.pdb
+C:\Users\liujintong\Desktop\luoguangyao1987.Volkswagen\CommunicateService - 副本\BG.Contract\obj\Release\BG.Contract.dll
+C:\Users\liujintong\Desktop\luoguangyao1987.Volkswagen\CommunicateService - 副本\BG.Contract\obj\Release\BG.Contract.pdb
+C:\Users\liujintong\Desktop\luoguangyao1987.Volkswagen\CommunicateService - 副本\BG.Contract\obj\Release\BG.Contract.csprojResolveAssemblyReference.cache
+C:\luoguangyao1987.Volkswagen\CommunicateService2\BG.Contract\bin\Release\BG.Contract.dll
+C:\luoguangyao1987.Volkswagen\CommunicateService2\BG.Contract\bin\Release\BG.Contract.pdb
+C:\luoguangyao1987.Volkswagen\CommunicateService2\BG.Contract\obj\Release\BG.Contract.csprojResolveAssemblyReference.cache
+C:\luoguangyao1987.Volkswagen\CommunicateService2\BG.Contract\obj\Release\BG.Contract.dll
+C:\luoguangyao1987.Volkswagen\CommunicateService2\BG.Contract\obj\Release\BG.Contract.pdb
+C:\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\bin\Release\BG.Contract.dll
+C:\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\bin\Release\BG.Contract.pdb
+C:\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\obj\Release\BG.Contract.dll
+C:\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\obj\Release\BG.Contract.pdb
+C:\Users\JinLaoshi\Desktop\20200101\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\bin\Release\BG.Contract.dll
+C:\Users\JinLaoshi\Desktop\20200101\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\bin\Release\BG.Contract.pdb
+C:\Users\JinLaoshi\Desktop\20200101\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\obj\Release\BG.Contract.csprojResolveAssemblyReference.cache
+C:\Users\JinLaoshi\Desktop\20200101\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\obj\Release\BG.Contract.dll
+C:\Users\JinLaoshi\Desktop\20200101\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\obj\Release\BG.Contract.pdb
+E:\p9\ssc 20200101\20200101服务器已修改\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\bin\Release\BG.Contract.dll
+E:\p9\ssc 20200101\20200101服务器已修改\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\bin\Release\BG.Contract.pdb
+E:\p9\ssc 20200101\20200101服务器已修改\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\obj\Release\BG.Contract.dll
+E:\p9\ssc 20200101\20200101服务器已修改\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\obj\Release\BG.Contract.pdb
+C:\luoguangyao1987.Volkswagen\CommunicateService\BG.Contract\obj\Release\BG.Contract.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ZJB+1\CommunicateService\BG.Contract\bin\Release\BG.Contract.dll
+C:\Users\Administrator\Desktop\ZJB+1\CommunicateService\BG.Contract\bin\Release\BG.Contract.pdb
+C:\Users\Administrator\Desktop\ZJB+1\CommunicateService\BG.Contract\obj\Release\BG.Contract.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\ZJB+1\CommunicateService\BG.Contract\obj\Release\BG.Contract.dll
+C:\Users\Administrator\Desktop\ZJB+1\CommunicateService\BG.Contract\obj\Release\BG.Contract.pdb
+E:\vs\Mqtt\BG.Contract\bin\Release\BG.Contract.dll
+E:\vs\Mqtt\BG.Contract\bin\Release\BG.Contract.pdb
+E:\vs\Mqtt\BG.Contract\obj\Release\BG.Contract.dll
+E:\vs\Mqtt\BG.Contract\obj\Release\BG.Contract.pdb
+D:\Git_wamnv\mqtt\Mqtt\BG.Contract\bin\Release\BG.Contract.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Contract\bin\Release\BG.Contract.pdb
+D:\Git_wamnv\mqtt\Mqtt\BG.Contract\obj\Release\BG.Contract.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Contract\obj\Release\BG.Contract.pdb

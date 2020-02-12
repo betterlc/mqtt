@@ -1,0 +1,324 @@
+﻿ERROR 2020-02-02 17:44:37,030 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:44:37,032 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:44:41,036 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:44:41,039 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:44:45,042 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:44:45,046 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:44:49,050 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:44:49,050 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:44:53,060 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:44:53,060 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:44:57,068 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:44:57,068 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:01,076 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:01,076 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:05,082 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:05,086 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:09,090 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:09,093 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:13,101 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:13,101 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:17,107 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:17,112 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:21,119 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:21,123 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:25,126 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:25,127 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:29,134 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:29,134 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:33,143 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:33,143 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:37,153 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:37,153 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:41,161 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+ERROR 2020-02-02 17:45:41,164 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnect mqtt server error, uPLibrary.Networking.M2Mqtt.Exceptions.MqttConnectionException: Exception connecting to the broker ---> System.Net.Sockets.SocketException: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:1883
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 uPLibrary.Networking.M2Mqtt.MqttNetworkChannel.Connect() 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\Net\MqttNetworkChannel.cs:行号 231
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 556
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean willRetain, Byte willQosLevel, Boolean willFlag, String willTopic, String willMessage, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 560
+   在 uPLibrary.Networking.M2Mqtt.MqttClient.Connect(String clientId, String username, String password, Boolean cleanSession, UInt16 keepAlivePeriod) 位置 c:\Users\ppatierno\Source\Repos\m2mqtt\M2Mqtt\MqttClient.cs:行号 512
+   在 BG.Mqtt.Mq.ReInitClient() 位置 D:\Git_wamnv\mqtt\Mqtt\BG.Mqtt\Mq.cs:行号 84
+INFO  2020-02-02 17:45:44,175 [23] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnected mqtt server.
+INFO  2020-02-02 17:45:48,540 [24] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Reconnected mqtt server.
+INFO  2020-02-02 18:17:07,215 [10] CommunicateService.MainService [BG.CommunicateService.vshost.exe] - Service start.
+INFO  2020-02-02 18:17:07,244 [6] CommunicateService.MainService [BG.CommunicateService.vshost.exe] - Thread runing
+INFO  2020-02-02 18:17:07,517 [6] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Connected mqtt server.
+INFO  2020-02-02 18:17:07,519 [12] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Connected mqtt server.
+INFO  2020-02-02 18:23:13,003 [10] CommunicateService.MainService [BG.CommunicateService.vshost.exe] - Service start.
+INFO  2020-02-02 18:23:13,023 [6] CommunicateService.MainService [BG.CommunicateService.vshost.exe] - Thread runing
+INFO  2020-02-02 18:23:13,173 [12] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Connected mqtt server.
+INFO  2020-02-02 18:23:13,186 [6] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Connected mqtt server.
+INFO  2020-02-02 18:32:52,639 [9] CommunicateService.MainService [BG.CommunicateService.vshost.exe] - Service start.
+INFO  2020-02-02 18:32:52,660 [6] CommunicateService.MainService [BG.CommunicateService.vshost.exe] - Thread runing
+INFO  2020-02-02 18:32:52,768 [11] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Connected mqtt server.
+INFO  2020-02-02 18:32:52,768 [6] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Connected mqtt server.
+INFO  2020-02-02 18:33:33,311 [8] CommunicateService.MainService [BG.CommunicateService.vshost.exe] - Service start.
+INFO  2020-02-02 18:33:33,342 [10] CommunicateService.MainService [BG.CommunicateService.vshost.exe] - Thread runing
+INFO  2020-02-02 18:33:33,481 [10] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Connected mqtt server.
+INFO  2020-02-02 18:33:33,496 [11] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Connected mqtt server.

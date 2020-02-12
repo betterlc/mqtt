@@ -1,4 +1,0 @@
-﻿INFO  2020-02-02 18:34:34,388 [10] CommunicateService.MainService [BG.CommunicateService.vshost.exe] - Service start.
-INFO  2020-02-02 18:34:34,412 [6] CommunicateService.MainService [BG.CommunicateService.vshost.exe] - Thread runing
-INFO  2020-02-02 18:34:34,467 [6] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Connected mqtt server.
-INFO  2020-02-02 18:34:34,483 [12] BG.Mqtt.Mq [BG.CommunicateService.vshost.exe] - Connected mqtt server.

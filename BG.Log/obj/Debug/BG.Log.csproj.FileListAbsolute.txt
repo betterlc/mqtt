@@ -1,0 +1,21 @@
+C:\Users\liujintong\Desktop\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\bin\Debug\BG.Log.dll
+C:\Users\liujintong\Desktop\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\bin\Debug\BG.Log.pdb
+C:\Users\liujintong\Desktop\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\bin\Debug\log4net.dll
+C:\Users\liujintong\Desktop\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\obj\Debug\BG.Log.dll
+C:\Users\liujintong\Desktop\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\obj\Debug\BG.Log.pdb
+C:\Users\liujintong\Desktop\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\obj\Debug\BG.Log.csprojResolveAssemblyReference.cache
+C:\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\bin\Debug\BG.Log.dll
+C:\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\bin\Debug\BG.Log.pdb
+C:\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\bin\Debug\log4net.dll
+C:\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\obj\Debug\BG.Log.dll
+C:\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\obj\Debug\BG.Log.pdb
+E:\p9\ssc 20200101\20200101服务器已修改\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\bin\Debug\BG.Log.dll
+E:\p9\ssc 20200101\20200101服务器已修改\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\bin\Debug\BG.Log.pdb
+E:\p9\ssc 20200101\20200101服务器已修改\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\bin\Debug\log4net.dll
+E:\p9\ssc 20200101\20200101服务器已修改\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\obj\Debug\BG.Log.dll
+E:\p9\ssc 20200101\20200101服务器已修改\luoguangyao1987.Volkswagen\CommunicateService\BG.Log\obj\Debug\BG.Log.pdb
+D:\Git_wamnv\mqtt\Mqtt\BG.Log\bin\Debug\BG.Log.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Log\bin\Debug\BG.Log.pdb
+D:\Git_wamnv\mqtt\Mqtt\BG.Log\bin\Debug\log4net.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Log\obj\Debug\BG.Log.dll
+D:\Git_wamnv\mqtt\Mqtt\BG.Log\obj\Debug\BG.Log.pdb

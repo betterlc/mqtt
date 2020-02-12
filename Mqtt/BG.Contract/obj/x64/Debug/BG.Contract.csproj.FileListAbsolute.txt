@@ -1,4 +1,0 @@
-D:\Git_wamnv\mqtt\Mqtt\BG.Contract\bin\x64\Debug\BG.Contract.dll
-D:\Git_wamnv\mqtt\Mqtt\BG.Contract\bin\x64\Debug\BG.Contract.pdb
-D:\Git_wamnv\mqtt\Mqtt\BG.Contract\obj\x64\Debug\BG.Contract.dll
-D:\Git_wamnv\mqtt\Mqtt\BG.Contract\obj\x64\Debug\BG.Contract.pdb
