@@ -9,12 +9,12 @@ using MathNet.Numerics.IntegralTransforms;
 
 namespace BG.Computer
 {
-    public class Processor
+    public static class Processor
     {
-        MathNet.Numerics.Complex32[] mathNetComplexArrRe = new MathNet.Numerics.Complex32[64];
-        double[] data = new double[] { 0, 3, 2, 5, 3, -7, -6, -9, -5, -13, -12, -15, -13, 17, 6, 19, 10, 13, 22, 22, 3, 27, 36, 19, 25, 13, 52, 45, 33, 22, 6, 19, 0, 3, 2, 5, 3, -7, -6, -9, -5, -13, -12, -15, -13, 17, 6, 19, 10, 13, 22, 22, 3, 27, 36, 19, 25, 13, 52, 45, 33, 22, 6, 19 };
-        double[] resultArr = new double[64];
-        private void Start()
+        static MathNet.Numerics.Complex32[] mathNetComplexArrRe = new MathNet.Numerics.Complex32[64];
+        static double[] data = new double[] { 0, 3, 2, 5, 3, -7, -6, -9, -5, -13, -12, -15, -13, 17, 6, 19, 10, 13, 22, 22, 3, 27, 36, 19, 25, 13, 52, 45, 33, 22, 6, 19, 0, 3, 2, 5, 3, -7, -6, -9, -5, -13, -12, -15, -13, 17, 6, 19, 10, 13, 22, 22, 3, 27, 36, 19, 25, 13, 52, 45, 33, 22, 6, 19 };
+        static public double[] resultArr = new double[64];
+        public static void Start()
         {
             double[] filterArr = new double[] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 };
             resultArr = Filter(data, filterArr);
@@ -25,7 +25,7 @@ namespace BG.Computer
         /// <param name="inData">输入的数据</param>
         /// <param name="filterArr">滤波数组，可以自定义</param>
         /// <returns></returns>
-        public double[] Filter(double[] inData, double[] filterArr)
+        public static double[] Filter(double[] inData, double[] filterArr)
         {
             double[] outArr = new double[64];
             outArr = inData;

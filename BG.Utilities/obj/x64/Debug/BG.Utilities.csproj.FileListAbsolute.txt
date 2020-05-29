@@ -9,3 +9,10 @@ D:\Projects\mqtt_wl\mqtt\Mqtt\BG.Utilities\obj\x64\Debug\BG.Utilities.dll
 D:\Projects\mqtt_wl\mqtt\Mqtt\BG.Utilities\obj\x64\Debug\BG.Utilities.pdb
 D:\Projects\mqtt_wl\mqtt\Mqtt\BG.Utilities\bin\x64\Debug\Newtonsoft.Json.dll
 D:\Projects\mqtt_wl\mqtt\Mqtt\BG.Utilities\bin\x64\Debug\Newtonsoft.Json.xml
+D:\Projects\CKProject\mqtt\BG.Utilities\bin\x64\Debug\BG.Utilities.dll
+D:\Projects\CKProject\mqtt\BG.Utilities\bin\x64\Debug\BG.Utilities.pdb
+D:\Projects\CKProject\mqtt\BG.Utilities\bin\x64\Debug\Newtonsoft.Json.dll
+D:\Projects\CKProject\mqtt\BG.Utilities\bin\x64\Debug\Newtonsoft.Json.xml
+D:\Projects\CKProject\mqtt\BG.Utilities\obj\x64\Debug\BG.Utilities.csprojResolveAssemblyReference.cache
+D:\Projects\CKProject\mqtt\BG.Utilities\obj\x64\Debug\BG.Utilities.dll
+D:\Projects\CKProject\mqtt\BG.Utilities\obj\x64\Debug\BG.Utilities.pdb

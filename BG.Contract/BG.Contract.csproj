@@ -75,14 +75,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseVO.cs" />
+    <Compile Include="CalculateTaskVO.cs" />
+    <Compile Include="ChannelFunctionSelectVO.cs" />
+    <Compile Include="ChannelFunctionVO.cs" />
+    <Compile Include="ChannelSummaryVO.cs" />
+    <Compile Include="ConnectorSummaryVO.cs" />
+    <Compile Include="DataRecorderSummaryVO.cs" />
+    <Compile Include="DeviceSummaryVO.cs" />
     <Compile Include="InBalanceRule.cs" />
     <Compile Include="FollowRule.cs" />
     <Compile Include="LineInfo.cs" />
+    <Compile Include="MqttCalculateResultVO.cs" />
     <Compile Include="OPCContract.cs" />
-    <Compile Include="OutBalanceRule.cs" />
+    <Compile Include="ModifyTableName.cs" />
     <Compile Include="OutLock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SectionRule.cs" />
+    <Compile Include="SensorSummaryVO.cs" />
+    <Compile Include="SignalSummaryVO.cs" />
     <Compile Include="SSCLager.cs" />
     <Compile Include="Station.cs" />
     <Compile Include="SystemSetting.cs" />

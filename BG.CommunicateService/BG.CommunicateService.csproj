@@ -94,9 +94,6 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="log4net.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BG.Log\BG.Log.csproj">

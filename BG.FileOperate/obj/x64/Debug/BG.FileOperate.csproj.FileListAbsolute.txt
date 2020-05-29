@@ -1,0 +1,5 @@
+D:\Projects\CKProject\mqtt\BG.FileOperate\bin\x64\Debug\BG.FileOperate.dll
+D:\Projects\CKProject\mqtt\BG.FileOperate\bin\x64\Debug\BG.FileOperate.pdb
+D:\Projects\CKProject\mqtt\BG.FileOperate\obj\x64\Debug\BG.FileOperate.csprojResolveAssemblyReference.cache
+D:\Projects\CKProject\mqtt\BG.FileOperate\obj\x64\Debug\BG.FileOperate.dll
+D:\Projects\CKProject\mqtt\BG.FileOperate\obj\x64\Debug\BG.FileOperate.pdb

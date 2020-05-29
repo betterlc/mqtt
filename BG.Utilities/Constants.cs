@@ -21,6 +21,13 @@ namespace BG.Utilities
         public static String WaingDuration = Configurations.Get("WarningDuration");
         public static int ServiceSection = int.Parse(Configurations.Get("Section"));
         public static String Semaphore = "";
+        public static String ServerIP = Configurations.Get("MqttServerIP");
+        public static int ServerPort = int.Parse(Configurations.Get("MqttServerPort"));
+        public static String MqttTopicHeart = Configurations.Get("MqttTopicHeart");
+        public static String MqttTopicCalculate = Configurations.Get("MqttTopicCalculate");
+        public static String MqttTopicTask = Configurations.Get("MqttTopicTask");
+        public static String MqttTopicUploadParam = Configurations.Get("MqttTopicUploadParam");
+
 
 
         public static List<String> KeepAliveKeys = new List<string>()

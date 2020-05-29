@@ -44,6 +44,10 @@
       <HintPath>..\packages\M2Mqtt.4.3.0.0\lib\net45\M2Mqtt.Net.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,14 +58,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Mq.cs" />
+    <Compile Include="CalculateClient.cs" />
+    <Compile Include="DownloadParamClient.cs" />
+    <Compile Include="HeartBeatClient.cs" />
+    <Compile Include="MqttClientService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="T_Client.cs" />
+    <Compile Include="UploadParamClient.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BG.Contract\BG.Contract.csproj">
+      <Project>{b5161714-47c2-4d35-8331-326c3aff2912}</Project>
+      <Name>BG.Contract</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BG.Database\BG.Database.csproj">
+      <Project>{20b5fd12-d53d-45cc-a7c2-b29edac43afa}</Project>
+      <Name>BG.Database</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BG.Log\BG.Log.csproj">
       <Project>{112d5952-9abf-477f-8250-8b1039820628}</Project>
       <Name>BG.Log</Name>

@@ -20,7 +20,6 @@ namespace CommunicateService
             s.StartTest();
             Thread.Sleep(9000000);
 
-
             //ServiceBase[] ServicesToRun;
             //ServicesToRun = new ServiceBase[]
             //   {

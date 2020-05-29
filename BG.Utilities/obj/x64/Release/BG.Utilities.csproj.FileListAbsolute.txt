@@ -1,0 +1,4 @@
+D:\Projects\CKProject\mqtt\BG.Utilities\bin\x64\Release\BG.Utilities.dll
+D:\Projects\CKProject\mqtt\BG.Utilities\bin\x64\Release\Newtonsoft.Json.dll
+D:\Projects\CKProject\mqtt\BG.Utilities\bin\x64\Release\Newtonsoft.Json.xml
+D:\Projects\CKProject\mqtt\BG.Utilities\obj\x64\Release\BG.Utilities.dll

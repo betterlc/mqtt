@@ -8,7 +8,7 @@ using BG.Utilities;
 using BG.Contract;
 using BG.Database;
 using BG.Mqtt;
-using BG.Computer;
+using Newtonsoft.Json;
 
 namespace BG.Service
 {
@@ -17,74 +17,68 @@ namespace BG.Service
         private BGLog logger = BGLog.GetLogger(typeof(ServiceHolder));
 
         //private OPCService HealthOPCService = new OPCService();
-        private T_Client tc1 = new T_Client();
-        private T_Client tc2 = new T_Client();
-
+        private HeartBeatClient Heart = new HeartBeatClient();
+        private CalculateClient Calculate = new CalculateClient();
+        private UploadParamClient UploadParam = new UploadParamClient();
+        private DownloadParamClient DownloadParam = new DownloadParamClient();     
 
         public void Run()
         {
-
             //ThreadPool.QueueUserWorkItem(new WaitCallback(KEEPALIVEListener));
-            ThreadPool.QueueUserWorkItem(new WaitCallback(MqttPub));
-            ThreadPool.QueueUserWorkItem(new WaitCallback(Tcl2));
-
+            //ThreadPool.QueueUserWorkItem(new WaitCallback(HeartRecvive));
+            //ThreadPool.QueueUserWorkItem(new WaitCallback(CalculateRecvive));
+            //ThreadPool.QueueUserWorkItem(new WaitCallback(UploadParamRecvive));
+            ThreadPool.QueueUserWorkItem(new WaitCallback(DownloadParamPublish));
         }
 
-
-        private void MqttPub(object ob)
+       
+        private void HeartRecvive(object obj)
         {
-            while(!tc1.InitClient("118.31.5.131", 1883, "lift")) //("118.31.5.131",1883,"lift"))
-            {
-                Thread.Sleep(1000 * 5);//5秒重连
-            }
-            string strLift = "00"; //二进制 111
-            //gps
-            float f_x = 125.33017F;
-            float f_y_max = 43.953903F, f_y_min = 43.79607F;
-            float f_y_interval = (f_y_max - f_y_min) / 100;
-            float f_y = f_y_min;
-            while (true)
-            {
-                DateTime dt = DateTime.Now;
-                string strTime = dt.ToString(); //time
-                strLift = GeneralMethods.InverseBit(strLift); //lift
-                string strg_x = f_x.ToString();
-                f_y += f_y_interval;
-                string strg_y = f_y.ToString();
-                var msgVar = new { time = strTime, lift = strLift, g_x = strg_x, g_y = strg_y };
-                string strMsg = JsonHelper.ToJson(msgVar);
-                //string strMsg = "{lift:\"1\",gps:\"123.123456_431.123456\"}";
-                //{"time":"2020-02-08 15:16:17","lift":489745194,"g_x":1234567,"g_y":1234567}
-                tc1.MqttPub("lift", strMsg,1);//Constants.js.ToString(), 1);
-                Thread.Sleep(1000 * 2);//2秒发布
-            }
-
-        }
-        private void Tcl2(object ob)
-        {
-            while (!tc2.InitClient("127.0.0.1",1883,"computer"))
+            while (!Heart.InitClient(Constants.ServerIP,Constants.ServerPort,Constants.MqttTopicHeart))
             {
                 Thread.Sleep(1000 * 5);
             }
-            while (true)
+            //while (true)
+            //{
+                Heart.MqttSubscribe(Constants.MqttTopicHeart);
+                //string strMsg = JsonHelper.ToJson(Processor.resultArr);//fft  64
+                //tc2.MqttPub("wamnv", strMsg.ToString(), 1);
+                Thread.Sleep(1000 * 1);
+            //}
+        }
+        private void CalculateRecvive(object obj)
+        {
+            while (!Calculate.InitClient(Constants.ServerIP, Constants.ServerPort, Constants.MqttTopicCalculate))
             {
-                processor
-                tc2.MqttPub("wamnv", DateTime.Now.AddDays(2).ToString(), 2);
                 Thread.Sleep(1000 * 5);
             }
-
+            Calculate.MqttSubscribe(Constants.MqttTopicCalculate+"123");
+            Thread.Sleep(1000 * 1);
         }
-
-
+        private void UploadParamRecvive(object obj)
+        {
+            while (!UploadParam.InitClient(Constants.ServerIP, Constants.ServerPort, Constants.MqttTopicUploadParam))
+            {
+                Thread.Sleep(1000 * 5);
+            }
+            UploadParam.MqttSubscribe(Constants.MqttTopicUploadParam + "123");
+            Thread.Sleep(1000 * 1);
+        }
+        private void DownloadParamPublish(object obj)
+        {
+            while (!DownloadParam.InitClient(Constants.ServerIP, Constants.ServerPort, Constants.MqttTopicUploadParam))
+            {
+                Thread.Sleep(1000 * 5);
+            }
+            DownloadParam.MqttMsgPublish(Constants.MqttTopicUploadParam + "123","",0);
+            Thread.Sleep(1000 * 1);
+        }
 
         public void Stop()
         {
-            tc1.MqttClose();
-            tc2.MqttClose();
+            Heart.MqttClose();
+            Calculate.MqttClose();
         }
-
-
-
         private void KEEPALIVEListener(object obj)
         {
             //KeepAliveOPCService.InitOPCService(Constants.OPCKEEPALIVEPATH, Constants.KeepAliveKeys);

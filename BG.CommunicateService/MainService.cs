@@ -36,7 +36,7 @@ namespace CommunicateService
             logger.Info("Service start.");
 
             ThreadPool.QueueUserWorkItem(new WaitCallback(Run));
-            //Thread.Sleep(900000);
+            Thread.Sleep(900000);
         }
 
         private void Run(object obj)

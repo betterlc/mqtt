@@ -7,3 +7,8 @@ D:\Projects\mqtt_wl\mqtt\Mqtt\BG.Contract\bin\x64\Debug\BG.Contract.pdb
 D:\Projects\mqtt_wl\mqtt\Mqtt\BG.Contract\obj\x64\Debug\BG.Contract.csprojResolveAssemblyReference.cache
 D:\Projects\mqtt_wl\mqtt\Mqtt\BG.Contract\obj\x64\Debug\BG.Contract.dll
 D:\Projects\mqtt_wl\mqtt\Mqtt\BG.Contract\obj\x64\Debug\BG.Contract.pdb
+D:\Projects\CKProject\mqtt\BG.Contract\bin\x64\Debug\BG.Contract.dll
+D:\Projects\CKProject\mqtt\BG.Contract\bin\x64\Debug\BG.Contract.pdb
+D:\Projects\CKProject\mqtt\BG.Contract\obj\x64\Debug\BG.Contract.dll
+D:\Projects\CKProject\mqtt\BG.Contract\obj\x64\Debug\BG.Contract.pdb
+D:\Projects\CKProject\mqtt\BG.Contract\obj\x64\Debug\BG.Contract.csprojResolveAssemblyReference.cache

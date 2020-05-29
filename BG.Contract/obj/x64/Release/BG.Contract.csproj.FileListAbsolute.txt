@@ -1,0 +1,2 @@
+D:\Projects\CKProject\mqtt\BG.Contract\bin\x64\Release\BG.Contract.dll
+D:\Projects\CKProject\mqtt\BG.Contract\obj\x64\Release\BG.Contract.dll

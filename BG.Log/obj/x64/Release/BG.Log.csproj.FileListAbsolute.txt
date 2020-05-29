@@ -1,0 +1,3 @@
+D:\Projects\CKProject\mqtt\BG.Log\bin\x64\Release\BG.Log.dll
+D:\Projects\CKProject\mqtt\BG.Log\bin\x64\Release\log4net.dll
+D:\Projects\CKProject\mqtt\BG.Log\obj\x64\Release\BG.Log.dll

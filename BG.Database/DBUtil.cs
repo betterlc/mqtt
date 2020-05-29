@@ -28,6 +28,7 @@ namespace BG.Database
                 parameter = (IDbDataParameter)inCommand.Parameters[index];
             }
             parameter.Value = inValue;
+            parameter.Direction = ParameterDirection.Output;
             return parameter;
         }
 

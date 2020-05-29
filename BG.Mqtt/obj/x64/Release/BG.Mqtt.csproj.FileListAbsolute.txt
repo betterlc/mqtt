@@ -1,0 +1,14 @@
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\BG.Mqtt.dll
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\BG.Database.dll
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\BG.Log.dll
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\BG.Utilities.dll
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\M2Mqtt.Net.dll
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\Oracle.ManagedDataAccess.dll
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\BG.Contract.dll
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\MySql.Data.dll
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\log4net.dll
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\Newtonsoft.Json.dll
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\M2Mqtt.Net.pdb
+D:\Projects\CKProject\mqtt\BG.Mqtt\bin\x64\Release\Newtonsoft.Json.xml
+D:\Projects\CKProject\mqtt\BG.Mqtt\obj\x64\Release\BG.Mqtt.csprojResolveAssemblyReference.cache
+D:\Projects\CKProject\mqtt\BG.Mqtt\obj\x64\Release\BG.Mqtt.dll
